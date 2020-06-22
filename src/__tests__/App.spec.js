@@ -60,7 +60,7 @@ describe("Likes", () => {
       });
 
     await actWait();
-
+ 
     fireEvent.press(getByTestId(`like-button-${repositoryId}`));
 
     await actWait();
